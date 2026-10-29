@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ==========================================
+    RESET Y ESTILOS GLOBALES
+   ========================================== */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: Roboto, sans-serif;
+    color: #F5F5F5;
+}
+
+/* ==========================================
+    ENCABEZADO Y NAVEGACIÓN
+   ========================================== */
+
+.header-principal {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.li-menu {
+    background-color: #181818;
+    list-style-type: none;
+    padding: 10px 15px;
+}
+
+.btn-menu {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+/* ==========================================
+TITULOS/SUBTITULOS
+========================================== */
+
+.titulo {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+.subtitulo {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffa500
+}
+
+.tit-img {
+    text-decoration: underline;
+    color: #3B82F6;
+}
+
+/* ==========================================
+    SECCIONES Y CONTENIDOS
+   ========================================== */
+
+.panel-articulo{
+    width: 632px;
+    margin-bottom: 30px;
+}
+
+.txt-parrafo {
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    text-align: justify;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+/* ==========================================
+    PIE DE PÁGINA (FOOTER)
+   ========================================== */
+
+.copyright {
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    color: #fdfdfd;
+    text-align: center;
+}
